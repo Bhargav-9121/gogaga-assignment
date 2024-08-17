@@ -227,7 +227,7 @@ label {
     background-image: url("../images/bg-image.jpg");
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 90vh;
   }
 
   .hero-head {
@@ -302,7 +302,7 @@ label {
   .form-elements {
     background-color: white;
     border-radius: 15px;
-    height: 55vh;
+    height: 59vh;
     width: 80vw;
   }
 
