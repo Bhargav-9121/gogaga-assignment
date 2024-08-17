@@ -58,7 +58,7 @@ nav {
 }
 
 .hero-section {
-  background-image: url("../images/bg-image.jpg");
+  background-image: url("./images/bg-image.jpg");
   background-size: cover;
   background-position: center;
   height: 85vh;
