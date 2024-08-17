@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+.nav-icons-container .nav-link i {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.color1 {
+  color: #21a2a5;
+}
+
+.color2 {
+  color: #71bd4c;
+}
+
+.custom-rounded {
+  border: solid grey 1px;
+  border-radius: 50px;
+  width: 85px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+a {
+  position: relative;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+nav {
+  height: 100px;
+}
+
+.navbar-brand a::before {
+  display: none;
+}
+
+.hero-section {
+  background-image: url("../images/bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+
+.form-elements {
+  background-color: white;
+  border-radius: 15px;
+  height: 45vh;
+}
+
+.hero-para {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hero-head {
+  color: white;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.custom-bg {
+  background-color: black !important;
+}
+
+.hero-btn {
+  height: 50px;
+  width: 110px;
+  border-radius: 10px !important;
+  font-size: 20px !important;
+}
+
+.custom-rounded2 {
+  border: solid grey 1px;
+  border-radius: 15px;
+  width: 325px;
+  height: 76px;
+  padding-top: 10px;
+}
+
+.custom-rounded3 {
+  border: solid grey 1px;
+  border-radius: 15px;
+  width: 525px;
+  height: 76px;
+}
+
+.custom-rounded4 {
+  border: solid grey 1px;
+  border-radius: 15px;
+  width: 325px;
+  height: 76px;
+}
+
+select,
+input {
+  outline: none;
+  color: black;
+  border: 0;
+  font-weight: 300;
+}
+
+input:focus {
+  outline: none;
+  border: 0;
+}
+
+::placeholder {
+  color: black;
+}
+
+input:focus::placeholder {
+  color: grey;
+}
+
+label {
+  margin-left: 2px;
+  color: grey;
+}
+
+.nights {
+  font-size: 13px;
+}
+
+.searchIcon {
+  background-color: black;
+  height: 76px;
+  width: 76px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 26px;
+}
+
+.star-custom-btn {
+  border: 0;
+  border-radius: 10px;
+  height: 35px;
+  width: 55px;
+  color: white;
+  background-color: black;
+}
+
+.star-custom-btn2 {
+  border: 0;
+  border-radius: 10px;
+  height: 35px;
+  width: 55px;
+  color: black;
+  background-color: rgb(242, 239, 239);
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  color: black;
+  position: relative;
+  margin-top: 10px;
+}
+
+.navbar-brand span {
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: "Bree Serif";
+  display: inline-block;
+  width: 24px;
+  position: relative;
+}
+
+.sub-hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkInOut1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkInOut2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hero-btn-div {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 576px) {
+  .sub-hero-section {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .hero-section {
+    background-image: url("../images/bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+  }
+
+  .hero-head {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .hero-para {
+    font-size: 15px;
+  }
+
+  .hero-btn {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px !important;
+    font-size: 15px !important;
+  }
+
+  .custom-rounded2 {
+    border: solid grey 1px;
+    border-radius: 15px;
+    width: 225px;
+    height: 76px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .custom-rounded3 {
+    border: solid grey 1px;
+    border-radius: 15px;
+    width: 225px;
+    height: 76px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .checkInOut {
+    display: none !important;
+  }
+
+  .navbar-brand span {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Bree Serif";
+    display: inline-block;
+    width: 24px;
+    position: relative;
+  }
+
+  .custom-rounded4 {
+    border: solid grey 1px;
+    border-radius: 15px;
+    width: 225px;
+    height: 76px;
+    margin-bottom: 15px;
+  }
+
+  .hero-btn-div {
+    margin-bottom: 15px;
+  }
+
+  .searchIcon {
+    background-color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 15px;
+    margin-left: auto;
+  }
+
+  .form-elements {
+    background-color: white;
+    border-radius: 15px;
+    height: 55vh;
+    width: 80vw;
+  }
+
+  .star-custom-btn {
+    width: 195px;
+  }
+
+  .star-custom-btn2 {
+    width: 195px;
+  }
+}
