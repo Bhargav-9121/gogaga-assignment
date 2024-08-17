@@ -24,6 +24,7 @@
   width: 85px;
   height: 40px;
   margin-top: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -91,6 +92,7 @@ nav {
   width: 110px;
   border-radius: 10px !important;
   font-size: 20px !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .custom-rounded2 {
@@ -99,6 +101,7 @@ nav {
   width: 325px;
   height: 76px;
   padding-top: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .custom-rounded3 {
@@ -106,6 +109,7 @@ nav {
   border-radius: 15px;
   width: 525px;
   height: 76px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .custom-rounded4 {
@@ -113,6 +117,7 @@ nav {
   border-radius: 15px;
   width: 325px;
   height: 76px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 select,
@@ -152,6 +157,7 @@ label {
   border-radius: 20px;
   border: 0;
   font-size: 26px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .star-custom-btn {
@@ -161,6 +167,7 @@ label {
   width: 55px;
   color: white;
   background-color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .star-class {
@@ -175,6 +182,7 @@ label {
   width: 55px;
   color: black;
   background-color: rgb(242, 239, 239);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-nav .nav-link {
